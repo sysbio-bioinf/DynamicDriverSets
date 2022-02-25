@@ -181,8 +181,8 @@ selecteGenesSet <- function(network, name, k=20, all=FALSE) {
   return (as.integer(res))
 }
 
-nwFile <- "toymodelgraph.txt"
+nwFile <- "Siegle2018.txt"
 selectedSet <- selecteGenesSet(nwFile, nwFile, k=20)
 combSet <- testNetwork(nwFile,nwFile)
 print(names(combSet))
-print("required run time: 6060.506 seconds")
+print("required run time for publication: 6060.506 seconds")
